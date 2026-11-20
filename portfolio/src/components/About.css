@@ -1,0 +1,66 @@
+
+/* About Section */
+
+#About {
+    padding: 90px 10%;
+    background-color: #111827;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+#About h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #60a5fa;
+    letter-spacing: 1px;
+}
+
+/* Paragraph */
+
+#About p {
+    max-width: 750px;
+    margin: 0 auto 25px;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #d1d5db;
+}
+
+/* Read More Button */
+
+#About button {
+    padding: 12px 28px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Button Hover */
+
+#About button:hover {
+    background-color: #2563eb;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    #About {
+        padding: 60px 6%;
+    }
+
+    #About h2 {
+        font-size: 28px;
+    }
+
+    #About p {
+        font-size: 15px;
+    }
+}
